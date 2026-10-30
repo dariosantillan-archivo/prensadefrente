@@ -1,0 +1,149 @@
+
+/* ===== reconstruido desde pdfb2/skins/portada/_main.php ===== */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;padding:0;color:#000;font:11px Verdana,Helvetica,sans-serif;
+ background-color:#F3F3F3}
+a,a:visited{color:#666666;text-decoration:none}
+a:hover{color:#000000;text-decoration:underline}
+img{border:0}
+
+div#caja{width:100%;min-width:784px;margin:0;padding:0}
+
+/* ---------- aviso de reconstruccion (agregado, no es del original) ---------- */
+.aviso{background:#1d1c17;color:#e9e7dc;font:10px/1.5 Verdana,Geneva,sans-serif;
+ padding:5px 14px;text-align:center}
+.aviso a{color:#fff;text-decoration:underline}
+.aviso b{color:#fff}
+
+/* ---------- encabezado ---------- */
+.estiloencabezado{width:100%;background-color:#503719}
+.estiloencabezado a{display:block;max-width:798px;margin:0 auto;line-height:0}
+.estiloencabezado img{width:798px;max-width:100%;height:auto;display:block;border:0}
+
+/* ---------- barra de menu ---------- */
+.menu{width:100%;padding-top:4px;margin:0;padding-bottom:7px;background-color:#94AE62;
+ color:#FFFFFF;text-align:left;font-family:Trebuchet MS,Trebuchet,Arial,Helvetica,sans-serif;
+ font-size:10px;font-variant:small-caps}
+.menu .in{max-width:1000px;margin:0 auto;padding:0 6px}
+.menu a{color:#FFFFFF;text-decoration:none;padding:10px;padding-top:4px;padding-bottom:4px;
+ display:inline-block}
+.menu a:hover{border-bottom:1px solid #ffffff;border-left:1px solid #728d40;
+ border-right:1px solid #e9ffb7;padding-left:9px;padding-bottom:7px;padding-right:9px;
+ color:#000000;background-color:#FFFFFF}
+.menu a.act{background-color:#728d40;color:#fff}
+.ancla{position:relative;visibility:visible;display:inline-block}
+.recuadros{padding:6px 2px 2px;position:absolute;left:0;top:100%;z-index:40;min-width:200px;
+ background:#fff;border-right:1px solid #DCDCD9;border-left:1px solid #DCDCD9;
+ border-bottom:1px solid #DCDCD9;display:none;text-align:left;font-variant:normal;
+ font:11px Verdana,sans-serif;box-shadow:0 2px 5px rgba(0,0,0,.18)}
+.ancla:hover .recuadros,.ancla:focus-within .recuadros{display:block}
+.recuadros a{display:block;padding:2px 8px 2px 4px;color:#666}
+.recuadros a:hover{background:#F3F3F3;color:#000;text-decoration:none}
+.recuadros img{vertical-align:middle;margin-right:3px}
+
+/* ---------- columnas ---------- */
+.espprincipal{width:42%;float:left;border-bottom:1px solid #DCDCD9;padding-left:20px;
+ padding-right:20px;padding-bottom:20px;padding-top:10px;background-color:#FFFFFF}
+.b2colum{width:175px;float:left;padding:4px}
+.b3colum{width:205px;float:left;padding:4px;background-color:#F3F3F3;
+ border-right:1px solid #DCDCD9;border-left:1px solid #DCDCD9}
+
+/* ---------- nota en el listado ---------- */
+.bPost{clear:both;margin:0;padding:0 0 10px;border-bottom:1px solid #DCDCD9;margin-bottom:14px}
+.bfecha{font:9px Arial,Helvetica,sans-serif;color:#999999;text-align:right}
+ins,.bvolanta{color:#808080;margin:1ex 0;font:10px Arial,Helvetica,sans-serif;
+ text-transform:uppercase;text-decoration:underline;display:block}
+.code{color:#000066;font:18px/1.24 Trebuchet MS,Trebuchet,Arial,Helvetica,sans-serif;
+ margin:2px 0 6px}
+.code a,.code a:visited{color:#000066}
+.code a:hover{color:#AD0527;text-decoration:none}
+.bText1{color:#61513e;font:12px Trebuchet MS,Trebuchet,Arial,Helvetica,sans-serif;
+ line-height:16px;margin-bottom:0}
+.bText1 p{margin:0 0 .85em}
+.bText1 a,.bText1 a:hover,.bText1 a:visited{color:#AD0527}
+.bText1 blockquote{border:2px dotted #ccc;background-color:#eee;margin:1em 2em;padding:0 1ex}
+.bText1 ins{display:inline;text-transform:none;color:#61513e;text-decoration:underline}
+.bText1 .code,.bText1 code{color:#000066;
+ font:14px Trebuchet MS,Trebuchet,Arial,sans-serif;display:block;margin:.4em 0}
+.bSmallFoot{font-family:Arial,Helvetica,sans-serif;font-size:9px;padding:1px;color:#990033;
+ border-bottom:1px solid #DCDCDC;margin-top:8px}
+.bSmallFoot a,.bSmallFoot a:visited{color:#990033}
+.bSmallFoot img{vertical-align:middle}
+.bTitulos2{margin:0 0 4px;color:#AD0527;padding-bottom:8px;
+ font:14px Trebuchet MS,Trebuchet,Arial,Helvetica,sans-serif}
+.boletin{font:9px Arial,sans-serif;color:#999;text-transform:uppercase;letter-spacing:.04em}
+.imgrota{display:inline-block;font:9px Arial,sans-serif;color:#999;background:#F3F3F3;
+ border:1px dashed #DCDCD9;padding:1px 5px}
+
+/* ---------- cajas laterales ---------- */
+.textochico{padding:4px;margin-top:0;margin-bottom:0;font:11px/1.45 Verdana,sans-serif}
+.textochico a{color:#666}
+.textochico img{vertical-align:middle;margin-right:2px}
+h3{color:#78a;font-size:90%;margin-top:0;margin-bottom:0}
+h4{color:#78a;font-size:135%;margin-top:0;margin-bottom:0;text-align:center}
+.tituloseccion{margin:0 0 4px;display:block}
+.cajalat{margin:0 0 16px}
+.recuadro{text-align:center;margin:0 0 14px;padding-bottom:10px;
+ border-bottom:1px solid #DCDCD9}
+.recuadro h3{color:#503719;font:11px/1.35 Arial,sans-serif;margin:5px 0 0}
+.etq{display:inline-block;border:1px solid #DCDCD9;background:#fff;padding:0 4px;
+ font:9px/1.7 Arial,sans-serif;color:#666;margin:0 2px 2px 0}
+a.etq:hover{border-color:#AD0527;color:#AD0527;text-decoration:none}
+
+/* ---------- comentarios ---------- */
+.comentarios{margin:18px 0 0;border-top:2px solid #94AE62;padding-top:8px}
+.comentarios h3{color:#AD0527;font:11px Arial,sans-serif;text-transform:uppercase;
+ letter-spacing:.05em;margin:0 0 10px}
+.com{margin:0 0 12px;padding:0 0 10px;border-bottom:1px solid #DCDCD9}
+.com .quien{font:10px Arial,sans-serif;color:#503719;font-weight:bold}
+.com .cuando{font:9px Arial,sans-serif;color:#999}
+.com .qdice{color:#61513e;font:11px/16px Trebuchet MS,Trebuchet,Arial,sans-serif;margin-top:4px}
+.com .qdice p{margin:0 0 .7em}
+.nocorreo{font:9px Arial,sans-serif;color:#999;margin:0 0 12px}
+
+/* ---------- pagina de nota ---------- */
+.nota-sola .code{font-size:24px;line-height:1.2;margin-bottom:8px}
+.volver{font:9px Arial,sans-serif;margin:0 0 10px}
+.volver a{color:#990033}
+
+/* ---------- archivo con buscador ---------- */
+.buscador input{width:100%;padding:5px 6px;font:11px Verdana,sans-serif;
+ border:1px solid #94AE62;background:#fff}
+.buscador .cnt{font:9px Arial,sans-serif;color:#999;margin:5px 0 0}
+.buscador .cnt b{color:#000}
+.filtro{display:flex;width:100%;text-align:left;background:none;border:0;padding:2px 3px;
+ font:11px Verdana,sans-serif;color:#666;cursor:pointer;gap:5px;align-items:baseline}
+.filtro:hover{background:#fff;color:#000}
+.filtro .n{margin-left:auto;color:#999;font:9px Arial,sans-serif}
+.filtro[aria-pressed="true"]{background:#AD0527;color:#fff}
+.filtro[aria-pressed="true"] .n{color:#f0cfcd}
+button.limpiar{font:9px Arial,sans-serif;background:#fff;border:1px solid #94AE62;
+ padding:3px 8px;cursor:pointer;margin-top:6px;color:#666}
+button.limpiar:hover{border-color:#AD0527;color:#AD0527}
+.banda-mes{margin:20px 0 12px;border-bottom:2px solid #94AE62;padding-bottom:3px;
+ display:flex;align-items:baseline;gap:8px}
+.banda-mes h2{margin:0;font:400 16px Trebuchet MS,Trebuchet,Arial,sans-serif;color:#503719;
+ text-transform:capitalize}
+.banda-mes .n{font:9px Arial,sans-serif;color:#999}
+mark{background:#e9ffb7}
+.oculto{display:none !important}
+.vacio{color:#999;padding:22px 0;font-size:12px}
+
+/* ---------- pie ---------- */
+div#pageFooter{clear:both;background:#ffffff;margin:0 auto;padding:0}
+p.baseline{text-align:center;font-size:74%;color:#999;padding:1ex;margin:0;
+ border-top:1px solid #DCDCD9}
+.notapie{font:9px/1.5 Arial,sans-serif;color:#999;padding:8px 20px 20px;text-align:center;
+ max-width:900px;margin:0 auto}
+
+@media (max-width:900px){
+ div#caja{min-width:0}
+ .espprincipal,.b2colum,.b3colum{width:100%;float:none;border-left:0;border-right:0}
+ .b2colum,.b3colum{border-top:1px solid #DCDCD9}
+ .estiloencabezado .marca{font-size:26px}
+ .estiloencabezado .sello{margin-left:0}
+ .recuadros{position:static;display:block;box-shadow:none;border:0;background:transparent;
+  min-width:0;padding:0 0 4px 14px}
+ .menu a{padding:4px 7px}
+}
